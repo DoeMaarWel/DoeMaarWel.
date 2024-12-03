@@ -1,4 +1,3 @@
-
 const Chosices = ["Steen", "Papier", "Schaar"];
 const PlayerDisplay = document.getElementById("PlayerDisplay");
 const ComputerDisplay = document.getElementById("ComputerDisplay");
@@ -25,3 +24,16 @@ PlayerDisplay.textContent = `Speler: ${PlayerChoices}`;
 ComputerDisplay.textContent = `Bot: ${ComputerChoices}`;
 ResultDisplay.textContent = Result;
 }
+
+
+
+const mybutton = document.getElementById("mybutton");
+const label = document.getElementById("Mylabel");
+const min = 1;
+const max = 100;
+let rendomNum;
+
+mybutton.onclick = function(){
+  rendomNum = Math.floor(Math.random() * max) + min;
+Mylabel.textContent = rendomNum;
+}   
