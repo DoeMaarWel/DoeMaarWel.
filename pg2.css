@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+    height: 3000px; 
+    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+
+    }
+    
+h1{
+    font-size: 3.5rem;
+
+}
+
+.Chosices{
+    margin-bottom: 30px;
+}
+
+.Chosices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 600px;
+    background-color: rgb(0, 132, 255);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.Chosices button:hover{
+    background-color: rgb(0, 204, 255);
+}
+
+
+#PlayerDisplay, #ComputerDisplay{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ResultDisplay{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.greenText{
+    color: rgb(72, 255, 0);
+}
+
+.redText{
+    color: red;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

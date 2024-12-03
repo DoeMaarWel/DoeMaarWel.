@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ItsForYou </title>
+  <link rel="stylesheet" href="AccountaanMaken.css">
+</head>
+<body>
+    <form action="Process-signup.php" method="post"></form>
+  <div class="container">
+    <div class="title">Registratie</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Voor en Achternaam</span>
+            <input type="text" placeholder=" Naam" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Gebruikersnaam</span>
+            <input type="text" placeholder="Gebruikersnaam" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Telefoon Nummer</span>
+            <input type="text" placeholder="Telefoon Nummer" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Wachtwoord</span>
+            <input type="text" placeholder="Wachtwoord" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Bevestig Wachtwoord</span>
+            <input type="text" placeholder="Bevestig Je Wachtwoord" required>
+          </div>
+        </div>
+        <div class="gender-details">   
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Geslacht</span>
+          <div class="category">       
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Man</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Vrouw</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Anders</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

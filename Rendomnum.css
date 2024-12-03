@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+    }
+    
+    #mybutton{
+        font-size: 3em;
+        padding: 5px 25px;
+        border-radius: 5px;
+        color: red;
+        border-color: black;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+    
+    }
+    
+    #Mylabel{
+        font-size: 3em;
+        color: rgb(255, 0, 0);
+    }
+    
