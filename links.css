@@ -1,0 +1,29 @@
+body{
+    background-image: url(/DoeMaarWel/foto/istockphoto-1397771294-612x612.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+  .navbar ul {
+    background-color: rgb(255, 0, 179);
+    border-radius: 20px;
+    width: 250px;
+    display: inline-block;
+  }
+  .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    display: block;
+  }
+  .navbar a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+
